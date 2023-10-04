@@ -11,7 +11,7 @@ public class Produto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer Id;
+    private int Id;
 
     @Column
     private String link;
